@@ -1,0 +1,305 @@
+@font-face {
+  font-family: 'Cocogoose';
+  src: url('../font/');
+  src: url('../font/?#iefix') format('embedded-opentype'),
+      url('../font/Cocogoose.woff2') format('woff2'),
+      url('../font/Cocogoose.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+body  {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Cocogoose';
+  color: #343a40;
+}
+
+a {
+  text-decoration: none;
+  transition: .3s;
+  font-family: 'Cocogoose';
+}
+a:hover {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+
+{
+  font-family: 'Cocogoose';
+}
+
+
+ a,
+ input,
+ button,
+ textarea:focus
+ {
+  outline:none;
+ }
+
+
+
+/*MOBILE MANU START=================*/
+
+.mobile-manu {
+    position: fixed;
+    height: 100%;
+    width: 35%;
+    left: -100%;
+    top: 0;
+    transition: .3s;
+    background: #333;
+    z-index: 99;
+    display: none;
+}
+.mobile-manu-inner ul li {
+  display: block;
+  margin: 1rem;
+}
+.mobile-manu-inner ul li a {
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 0;
+    display: block;
+    font-weight: 600;
+    border-bottom: 1px solid #ddd;
+}
+.mobile-manu-inner ul {
+  margin-top: 20px;
+}
+.main-manu-open {
+    padding: 1rem;
+    font-size: 30px;
+    color: #333;
+    cursor: pointer;
+    display: none;
+    z-index: 999;
+}
+.active .mobile-manu {
+    left: 0;
+    z-index: 99999;
+}
+.menu-close {
+    font-size: 30px;
+    margin-left: 10px;
+    padding: 1rem;
+    cursor: pointer;
+    color: #fff;
+    margin-top: -10px;
+    display: inline-block;
+}
+.overlay {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: -100%;
+    top: 0;
+    background: #ddd;
+    opacity: 0.6;
+    z-index: 2;
+    transition: .6s;
+    display: none;
+}
+
+.active .overlay {
+    left: 0;
+    z-index: 9999;
+}
+.all__section {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/* MOBILE MENU END================ */
+
+
+/*=============================== HEADER AREA START */
+.header__area {
+	background-size: 100% 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.header__title {
+	position: relative;
+	margin-top: 78px;
+}
+.header__title h1 {
+	font-size: 92px;
+	color: #fff;
+	font-weight: 800;
+}
+.header__logo {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.header__logo img {
+	max-width: 92px;
+}
+.header__thumb img {
+	width: 100%;
+}
+.header__thumb2 img {
+	width: 100%;
+}
+/*=============================== HEADER AREA END */
+
+
+/*=============================== READY AREA START */
+.ready__area {
+	background-size: 100% 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-bottom: 20px;
+}
+.ready__title {
+	position: relative;
+	margin-top: 78px;
+}
+.ready__title h1 {
+	font-size: 82px;
+	color: #fff;
+	font-weight: 800;
+}
+.ready__content {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	height: 100%;
+}
+.ready__content p {
+	font-size: 38px;
+	color: #fff;
+	text-align: right;
+	margin: 0;
+	line-height: 1.3;
+	padding-right: 20px;
+}
+.app__download img {
+	margin-bottom: 20px;
+	max-width: 282px;
+}
+/*=============================== READY AREA END */
+
+
+/*=============================== NEXTFLAG AREA START */
+.nextflag__area {
+	background-size: 100% 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	padding-bottom: 78px;
+}
+.nextflag__title {
+	position: relative;
+	margin-top: 78px;
+}
+.nextflag__title h1 {
+	font-size: 92px;
+	color: #fff;
+	font-weight: 800;
+}
+.nextflag__content {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	height: 100%;
+	padding-top: 78px;
+}
+.nextflag__content p {
+	font-size: 46px;
+	color: #fff;
+	margin: 0;
+	line-height: 1.3;
+	padding-right: 20px;
+}
+.nextflag__thumb {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.nextflag__thumb img {
+	max-width: 410px;
+}
+/*=============================== NEXTFLAG AREA END */
+
+
+/*=============================== JOINING AREA START */
+.joining__area {
+	background: #323757;
+	padding-bottom: 88px;
+}
+.joining__title {
+	position: relative;
+	margin-top: 48px;
+}
+.joining__title h1 {
+	font-size: 70px;
+	color: #fff;
+	font-weight: 800;
+	margin-bottom: 32px;
+}
+.joining__title p {
+	font-size: 37px;
+	color: #ee7458;
+	margin-bottom: 68px;
+}
+.download__area {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.download__area a {
+	margin: 0 50px;
+}
+.download__area img {
+	max-width: 282px;
+}
+/*=============================== JOINING AREA END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,352 @@
+/* XL Device :1200px. */
+@media  screen and (min-width: 1200px) and (max-width: 1500px) {
+	
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* LG Device :992px. */
+@media  screen and (min-width: 992px) and (max-width: 1200px) {
+	.all__section {
+		max-width: 960px;
+	}
+	.header__logo img {
+		max-width: 88px;
+	}
+	.header__title h1 {
+		font-size: 72px;
+	}
+	.ready__title h1 {
+		font-size: 72px;
+	}
+	.ready__content p {
+		font-size: 32px;
+	}
+	.nextflag__title h1 {
+		font-size: 72px;
+	}
+	.nextflag__content {
+		padding-top: 70px;
+	}
+	.nextflag__content p {
+		font-size: 35px;
+	}
+	.nextflag__thumb img {
+		max-width: 360px;
+	}
+	.joining__title h1 {
+		font-size: 60px;
+		margin-bottom: 30px;
+	}
+	.joining__title p {
+		font-size: 35px;
+		margin-bottom: 60px;
+	}
+	.app__download img {
+		max-width: 260px;
+	}
+	.download__area img {
+		max-width: 260px;
+		margin: 0 40px;
+	}
+
+
+
+
+
+
+
+}
+
+ 
+
+
+
+
+
+
+
+/* MD Device :768px. */
+@media  screen and (min-width: 768px) and (max-width: 991px) {
+	.header__title {
+		margin-top: 45px;
+	}
+	.header__logo img {
+		max-width: 78px;
+	}
+	.header__title h1 {
+		font-size: 50px;
+	}
+	.ready__title {
+		position: relative;
+		margin-top: 45px;
+	}
+	.ready__title h1 {
+		font-size: 50px;
+	}
+	.ready__content p {
+		font-size: 28px;
+	}
+	.nextflag__title {
+		margin-top: 45px;
+	}
+	.nextflag__title h1 {
+		font-size: 50px;
+	}
+	.nextflag__content {
+		padding-top: 70px;
+	}
+	.nextflag__content p {
+		font-size: 28px;
+	}
+	.nextflag__thumb img {
+		max-width: 320px;
+	}
+	.joining__area {
+		padding-bottom: 60px;
+	}
+	.joining__title h1 {
+		font-size: 38px;
+		margin-bottom: 25px;
+	}
+	.joining__title p {
+		font-size: 28px;
+		margin-bottom: 50px;
+	}
+	.app__download img {
+		max-width: 200px;
+	}
+	.download__area img {
+		max-width: 150px;
+	}
+	.download__area a {
+		margin: 0 20px;
+	}
+
+
+	
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* SM Small Device :320px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+
+	.header__title {
+		margin-top: 45px;
+	}
+	.header__logo img {
+		max-width: 45px;
+	}
+	.ready__content {
+		display: flex;
+	}
+	.header__title h1 {
+		font-size: 40px;
+	}
+	.ready__title {
+		position: relative;
+		margin-top: 45px;
+	}
+	.ready__title h1 {
+		font-size: 40px;
+	}
+	.ready__content p {
+		font-size: 20px;
+		text-align: right;
+	}
+	.app__download {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		padding-top: 30px;
+	}
+	.nextflag__area {
+		padding-bottom: 90px;
+	}
+
+	.nextflag__title {
+		margin-top: 45px;
+	}
+	.nextflag__title h1 {
+		font-size: 40px;
+	}
+	.nextflag__content {
+		padding-top: 20px;
+	}
+	.nextflag__content p {
+		font-size: 22px;
+	}
+	.nextflag__thumb img {
+		max-width: 250px;
+	}
+	.joining__area {
+		padding-bottom: 40px;
+	}
+	.joining__title h1 {
+		font-size: 30px;
+		margin-bottom: 25px;
+	}
+	.joining__title p {
+		font-size: 25px;
+		margin-bottom: 40px;
+	}
+	.app__download img {
+		max-width: 160px;
+	}
+	.joining__title {
+		margin-top: 30px;
+	}
+	.download__area img {
+		max-width: 140px;
+	}
+	.nextflag__thumb {
+		right: 0;
+		transform: unset;
+	}
+	.download__area {
+		flex-direction: unset;
+	}
+	.download__area a {
+		margin: 0 15px;
+	}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small Device. */
+@media  screen and (min-width: 320px) and (max-width: 575px) {
+	
+
+	.header__title {
+		margin-top: 45px;
+	}
+	.header__logo img {
+		max-width: 45px;
+	}
+	.ready__content {
+		display: unset;
+	}
+	.header__title h1 {
+		font-size: 28px;
+	}
+	.ready__title {
+		position: relative;
+		margin-top: 45px;
+	}
+	.ready__title h1 {
+		font-size: 28px;
+	}
+	.ready__content p {
+		font-size: 18px;
+		text-align: left;
+	}
+	.app__download {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		padding-top: 30px;
+	}
+	.nextflag__area {
+		padding-bottom: 120px;
+	}
+
+	.nextflag__title {
+		margin-top: 45px;
+	}
+	.nextflag__title h1 {
+		font-size: 28px;
+	}
+	.nextflag__content {
+		padding-top: 20px;
+	}
+	.nextflag__content p {
+		font-size: 18px;
+	}
+	.nextflag__thumb img {
+		max-width: 130px;
+	}
+	.joining__area {
+		padding-bottom: 40px;
+	}
+	.joining__title h1 {
+		font-size: 21px;
+		margin-bottom: 18px;
+	}
+	.joining__title p {
+		font-size: 18px;
+		margin-bottom: 35px;
+	}
+	.app__download img {
+		max-width: 160px;
+	}
+	.joining__title {
+		margin-top: 30px;
+	}
+	.download__area img {
+		max-width: 160px;
+		margin: 0 25px;
+	}
+	.nextflag__thumb {
+		right: 50%;
+		transform: translateX(50%);
+	}
+	.download__area {
+		flex-direction: column;
+	}
+	.download__area a {
+		margin-bottom: 20px;
+	}
+
+
+
+
+}
+
+
+
+
+
+
+
+
